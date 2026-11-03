@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="it">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quota</title>
+<meta name="description" content="Quota: un'app gratuita per chi vola in mongolfiera, per la squadra che lo insegue e per chi sale a bordo.">
+<!-- La pagina d'ingresso del sito pubblico (GitHub Pages, 3 novembre 2026).
+     Non è la home di web/index.html: quella racconta un'app di settembre
+     («guardare non serve un account», «piloti su invito della direzione») e
+     va riscritta prima di uscire. Qui c'è solo quello che è vero oggi, e le
+     tre pagine che gli store vogliono raggiungibili. Le legali rimandano a
+     `index.html#contatti`: la sezione deve restare. -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 80'%3E%3Cpath fill='%23E8633A' d='M32 3c14 0 23 11 23 24 0 12-9 22-16 29l-1 4H26l-1-4C18 49 9 39 9 27 9 14 18 3 32 3Z'/%3E%3Crect x='27' y='61' width='10' height='8' rx='2' fill='%235C5040'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="fonts.css">
+<style>
+:root{--e300:#EC8A69;--e400:#E8633A;--d900:#050C16;--d700:#0F1E30;
+  --line:rgba(198,219,245,.10);--ink1:#F3F6FA;--ink2:#A9B8CD;--ink3:#7D8FA7;
+  --disp:"Instrument Serif",Georgia,serif;--ui:"Geist",system-ui,sans-serif;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--d900);color:var(--ink1);font-family:var(--ui);
+  font-size:16px;line-height:1.62;-webkit-font-smoothing:antialiased}
+.wrap{max-width:44rem;margin:0 auto;padding:clamp(2rem,6vw,4rem) clamp(1.1rem,4vw,2rem) 6rem}
+h1{font-family:var(--disp);font-weight:400;font-size:clamp(3rem,10vw,4.4rem);line-height:1;
+  letter-spacing:-.01em;margin:0 0 .3em}
+h2{font-family:var(--disp);font-weight:400;font-size:clamp(1.5rem,4vw,1.9rem);line-height:1.2;
+  margin:2.2em 0 .5em;text-wrap:balance}
+p{margin:0 0 1em;color:var(--ink2);max-width:38rem}
+b{color:var(--ink1);font-weight:600}
+a{color:var(--e300);text-decoration:underline;text-underline-offset:.18em;
+  text-decoration-thickness:1px;text-decoration-color:rgba(236,138,105,.45)}
+a:hover{text-decoration-color:var(--e300)}
+a:focus-visible{outline:2px solid var(--e400);outline-offset:3px;border-radius:2px}
+.marchio{display:inline-flex;align-items:center;gap:9px;font-size:11px;font-weight:600;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--e300);margin-bottom:1.4em}
+.marchio i{width:7px;height:7px;border-radius:50%;background:var(--e400);box-shadow:0 0 0 4px rgba(232,99,58,.16)}
+.pagine{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.pagine li{border-bottom:1px solid var(--line)}
+.pagine a{display:flex;justify-content:space-between;gap:1rem;padding:15px 2px;text-decoration:none;color:var(--ink1)}
+.pagine a span{color:var(--ink3);font-size:14px}
+.pagine a:hover span{color:var(--e300)}
+</style>
+<div class="wrap">
+  <span class="marchio"><i></i>Quota · mongolfiere</span>
+  <h1>Quota</h1>
+  <p>Un'app per le persone di un volo in mongolfiera. Il <b>pilota</b> prepara il volo, legge i venti quota per quota e in aria trasmette la posizione alla sua squadra. La <b>squadra</b> lo insegue su una mappa e lo recupera dove atterra. Chi <b>sale a bordo</b> trova il ritrovo, il briefing e, dopo, il ricordo del volo.</p>
+  <p>È un progetto personale, gratuito e senza scopo di lucro: niente pubblicità, niente tracciamento. Per ora è in prova con un gruppo di piloti e squadre, su Android.</p>
+
+  <h2>Documenti</h2>
+  <ul class="pagine">
+    <li><a href="privacy.html">Informativa privacy <span>chi vede cosa, e per quanto</span></a></li>
+    <li><a href="condizioni.html">Condizioni d'uso <span>cosa fa l'app, e cosa no</span></a></li>
+    <li><a href="cancella-account.html">Cancellare l'account <span>dall'app, subito</span></a></li>
+  </ul>
+
+  <h2 id="contatti">Contatti</h2>
+  <p>L'indirizzo per scriverci arriva a giorni. Intanto, l'account si cancella da solo dall'app: <a href="cancella-account.html">qui c'è come</a>.</p>
+</div>

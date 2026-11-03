@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="it">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cancellare l'account di Quota</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 80'%3E%3Cpath fill='%23E8633A' d='M32 3c14 0 23 11 23 24 0 12-9 22-16 29l-1 4H26l-1-4C18 49 9 39 9 27 9 14 18 3 32 3Z'/%3E%3Crect x='27' y='61' width='10' height='8' rx='2' fill='%235C5040'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="fonts.css">
+<style>
+:root{--e300:#EC8A69;--e400:#E8633A;--d900:#050C16;--d800:#0A1523;--d700:#0F1E30;
+  --line:rgba(198,219,245,.10);--ink1:#F3F6FA;--ink2:#A9B8CD;--ink3:#7D8FA7;
+  --disp:"Instrument Serif",Georgia,serif;--ui:"Geist",system-ui,sans-serif;--mono:"JetBrains Mono",ui-monospace,monospace}
+*{box-sizing:border-box}
+body{margin:0;background:var(--d900);color:var(--ink1);font-family:var(--ui);
+  font-size:16px;line-height:1.62;-webkit-font-smoothing:antialiased}
+.wrap{max-width:44rem;margin:0 auto;padding:clamp(2rem,6vw,4rem) clamp(1.1rem,4vw,2rem) 6rem}
+h1{font-family:var(--disp);font-weight:400;font-size:clamp(2.2rem,6vw,3rem);line-height:1.05;
+  letter-spacing:-.01em;margin:0 0 .4em;text-wrap:balance}
+h2{font-family:var(--disp);font-weight:400;font-size:clamp(1.5rem,4vw,1.9rem);line-height:1.2;
+  margin:2.2em 0 .5em;text-wrap:balance}
+h2,h3{scroll-margin-top:2.2rem}
+h3{font-size:1.02rem;font-weight:600;margin:1.8em 0 .4em;color:var(--ink1)}
+p,li{color:var(--ink2)}
+p{margin:0 0 1em}
+b{color:var(--ink1);font-weight:600}
+ul,ol{margin:0 0 1em;padding-left:1.3rem}
+li{margin-bottom:.42em}
+ol li{margin-bottom:.7em}
+ol li::marker{color:var(--e300);font-weight:600}
+/* I link erano quelli di sistema: blu #0000EE su fondo #050C16, cioe' 2.09 di
+   contrasto. L'arancio del marchio fa 7.85, e la sottolineatura c'e' perche' il
+   colore da solo non basta a dire «e' un link». */
+a{color:var(--e300);text-decoration:underline;text-underline-offset:.18em;
+  text-decoration-thickness:1px;text-decoration-color:rgba(236,138,105,.45)}
+a:hover{text-decoration-color:var(--e300)}
+a:focus-visible{outline:2px solid var(--e400);outline-offset:3px;border-radius:2px}
+code{font-family:var(--mono);font-size:.86em;background:var(--d700);padding:.1em .38em;border-radius:3px;color:var(--e300)}
+.avviso{background:rgba(226,169,59,.10);border:1px solid rgba(226,169,59,.32);border-radius:12px;
+  padding:15px 17px;margin:0 0 1.6em}
+.avviso p{margin:0;color:#F0B23F;font-size:14.5px}
+table{width:100%;border-collapse:collapse;margin:0 0 1.4em;font-size:14.5px;display:block;overflow-x:auto}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--ink3);font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:600}
+td{color:var(--ink2)}
+.marchio{display:inline-flex;align-items:center;gap:9px;font-size:11px;font-weight:600;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--e300);margin-bottom:1.4em}
+.marchio i{width:7px;height:7px;border-radius:50%;background:var(--e400);box-shadow:0 0 0 4px rgba(232,99,58,.16)}
+</style>
+<div class="wrap">
+  <span class="marchio"><i></i>Quota · mongolfiere</span>
+<h1>Cancellare l'account</h1>
+<p><b>Si fa da soli, dall'app, in tre passaggi. Non serve chiedere a nessuno e non c'è niente da aspettare.</b></p>
+<h2 id="come">Come si fa</h2>
+<ol>
+<li>Apri Quota, tocca le tue iniziali in alto a destra e poi l'<b>ingranaggio</b>: sei nelle <b>Impostazioni</b>.</li>
+<li>In fondo, tocca <b>«Cancella il mio account»</b>.</li>
+<li>Leggi cosa sparisce e cosa resta, scrivi la <b>tua password</b> e conferma con <b>«Cancella tutto»</b>. La password serve perché non lo possa fare chi ha in mano il tuo telefono; se entri con Google o Apple non c'è, e basta confermare. Cinque password sbagliate in un quarto d'ora fermano i tentativi fino al quarto d'ora dopo.</li>
+</ol>
+<p>Succede subito. Non si torna indietro, e non c'è un periodo di ripensamento in cui l'account resta acceso in attesa: quando la schermata si chiude, l'utenza non esiste più.</p>
+<h2 id="sparisce">Cosa sparisce</h2>
+<ul>
+<li><b>L'utenza e il profilo</b>: l'indirizzo email, la password, il nome e il cognome, il telefono, la data di nascita, il ruolo.</li>
+<li><b>La foto del profilo e la galleria.</b></li>
+<li><b>Le tue richieste di posto</b> sui palloni, con il peso e la liberatoria firmata.</li>
+<li><b>Le foto che hai pubblicato</b> sul muro dell'evento.</li>
+<li><b>I tuoi documenti</b>: licenze, visite, revisioni, con i loro numeri e le loro scadenze.</li>
+<li><b>Le tue appartenenze a una squadra</b>, e le tue risposte «Ci sono / Non ci sono» ai voli.</li>
+<li><b>Il tuo nome dai messaggi della chat.</b></li>
+<li><b>I tuoi contatti e i messaggi privati</b>, anche dalla parte di chi li aveva con te, e le persone che avevi bloccato.</li>
+<li><b>La posizione di quando insegui</b>, se c'era ancora.</li>
+<li><b>Il recapito per le notifiche</b>, staccato dal telefono prima di tutto il resto, e il registro delle notifiche che ti abbiamo mandato.</li>
+</ul>
+<h2 id="resta">Cosa resta, e perché</h2>
+<p>Quattro cose non spariscono, ed è una scelta consapevole — non una dimenticanza.</p>
+<ul>
+<li><b>I voli che hai fatto, e le loro tracce, ma senza di te.</b> Il tuo nome viene staccato: il volo resta come volo, la riga non dice più chi lo pilotava. Un volo è successo davvero, e la squadra che ti ha inseguito e i passeggeri che erano sopra hanno diritto al loro libretto e ai loro ricordi. <b>Cancellare una persona non deve riscrivere la storia di altre persone.</b> Le tracce, comunque, si cancellano da sole dopo dodici mesi — come per chiunque altro.</li>
+<li><b>Il testo dei messaggi che hai scritto in chat, senza il tuo nome.</b> La conversazione è anche di chi ti ha risposto: togliere le tue frasi lascerebbe le loro senza senso.</li>
+<li><b>Gli SOS lanciati dal tuo pallone, senza il tuo nome.</b> Sono la storia di un'emergenza che ha coinvolto altre persone, come i voli.</li>
+<li><b>Il tuo pallone torna libero, non sparisce.</b> Se lo avevi preso in carico e te ne vai, resta lì e lo riprende un altro. Un pallone è un oggetto con una matricola, non un tuo dato.</li>
+</ul>
+<h2 id="senza-app">Se non riesci ad aprire l'app</h2>
+<p>Se hai disinstallato Quota, hai perso l'accesso o il telefono non ti fa arrivare fino alle impostazioni, scrivi all'indirizzo email indicato nelle <a href="condizioni.html#contatti">condizioni d'uso</a> o dal <a href="index.html#contatti">modulo di contatto</a>: indica l'indirizzo email con cui ti eri registrato. La richiesta la legge una persona sola, e la cancellazione la faccio io con lo stesso identico effetto descritto qui sopra — niente di più, niente di meno.</p>
+<h2 id="altro">Se vuoi altro, non la cancellazione</h2>
+<p>Puoi anche chiedere solo di <b>vedere</b> i tuoi dati, di <b>correggerli</b> o di <b>portarli via</b>: sono diritti diversi dalla cancellazione, e stanno tutti nell'<a href="privacy.html#diritti">informativa privacy</a>. Per portarli via c'è anche «Scarica i miei dati», nelle impostazioni dell'app.</p>
+</div>
